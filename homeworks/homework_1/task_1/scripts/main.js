@@ -1,0 +1,27 @@
+const str1 = 'Hello';
+const str2 = 'owu';
+const str3 = 'com';
+const str4 = 'ua';
+const num1 = 1;
+const num2 = 10;
+const num3 = -999;
+const num4 = 123;
+const PI = 3.14;
+const EXP = 2.7;
+const num5 = 16;
+const bool1 = true;
+const bool2 = false;
+
+console.log(str1);
+console.log(str2);
+console.log(str3);
+console.log(str4);
+console.log(num1);
+console.log(num2);
+console.log(num3);
+console.log(num4);
+console.log(PI);
+console.log(EXP);
+console.log(num5);
+console.log(bool1);
+console.log(bool2);
