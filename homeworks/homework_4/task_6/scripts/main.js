@@ -8,3 +8,5 @@ function createList(text) {
 
     document.write('</ul>');
 }
+
+createList('hello');

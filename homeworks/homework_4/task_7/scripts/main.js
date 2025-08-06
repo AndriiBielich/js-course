@@ -7,3 +7,6 @@ function createList(text, listSize) {
 
     document.write(`</ul>`);
 }
+
+createList('hello', 5);
+
