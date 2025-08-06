@@ -1,4 +1,4 @@
-function createListFromArray(...list) {
+function createListFromArray(list) {
     document.write(`<ul>`);
 
     for (let i = 0; i < list.length; i++) {
