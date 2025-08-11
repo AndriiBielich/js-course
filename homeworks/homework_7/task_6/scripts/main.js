@@ -21,7 +21,7 @@ function Car(model, manufacturer, yearProduction, maxSpeed, engineVolume) {
     }
 
     this.increaseMaxSpeed = function(newSpeed) {
-        this.speed = newSpeed > this.maxSpeed ? newSpeed : this.maxSpeed;
+        this.maxSpeed = newSpeed > this.maxSpeed ? newSpeed : this.maxSpeed;
     }
 
     this.changeYear = function(newYear) {
