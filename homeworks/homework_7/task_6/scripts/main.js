@@ -6,12 +6,10 @@ function Car(model, manufacturer, yearProduction, maxSpeed, engineVolume) {
     this.engineVolume = engineVolume;
 
     this.drive = function() {
-        console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
+        console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
     }
 
     this.info = function() {
-        const keys = Object.keys(this);
-        console.log(keys);
         console.log(`
             model - ${this.model}\n
             manufacturer - ${this.manufacturer}\n
