@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', 'Helvetica', 'Arial', sans-serif;
+    list-style-type: none;
+}
+
+.card {
+    border: 1px solid lightgray;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 10px 0 10px 10px;
+    width: 600px;
+}
+
+.heading {
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.month-duration-block, .hour-duration-block {
+    border: 1px solid lightgray;
+    padding: 12px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.list-item {
+    border: 1px solid lightgray;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.list-item:last-child {
+    margin-bottom: 0;
+}
