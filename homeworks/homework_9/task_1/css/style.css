@@ -1,0 +1,19 @@
+.wrap {
+    width: 200px;
+    height: 200px;
+    background-color: #a32929;
+}
+
+.collapse {
+    margin: 15px 0;
+}
+
+.alpha {
+    border: 2px solid black;
+}
+
+.beta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
