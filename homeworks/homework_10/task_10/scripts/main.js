@@ -37,7 +37,7 @@ for (let i = 0; i < ARR_SIZE; i++) {
 renderContent(currentPage * OFFSET, currentPage * OFFSET + OFFSET, items);
 
 
-prevBtn.addEventListener('click', (e) => {
+prevBtn.addEventListener('click', () => {
     currentPage--;
 
     if (currentPage <= 0) {
@@ -48,7 +48,7 @@ prevBtn.addEventListener('click', (e) => {
     renderContent(currentPage * OFFSET - OFFSET, currentPage * OFFSET, items);
 });
 
-nextBtn.addEventListener('click', (e) => {
+nextBtn.addEventListener('click', () => {
     currentPage++;
 
     if (currentPage >= maxPageSize) {
