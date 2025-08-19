@@ -1,9 +1,9 @@
-const POUNDS_PER_KG = 2.20462;
+const addToLocalStorage = (arrayName, objToAdd) => {
+    const arr = JSON.parse(localStorage.getItem(arrayName));
+    if (!arr) {
+        throw new Error('Local storage is empty');
+    }
 
-const kgInput = document.querySelector('#kgInput');
-const response = document.querySelector('#response');
-
-kgInput.addEventListener('input', (event) => {
-   const { value } = event.target;
-   response.innerText = value ? `In ${value} kg - ${(parseInt(value) * POUNDS_PER_KG).toFixed(2)} pounds` : '';
-});
+    arr.push(objToAdd);
+    localStorage.setItem(arrayName, JSON.stringify(arr));
+}
