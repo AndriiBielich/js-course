@@ -4,7 +4,6 @@ fetch(`${BASE_URL}/recipes`)
     .then(res => res.json())
     .then(data => {
         const { recipes } = data;
-        console.log(recipes);
         for (const recipe of recipes) {
             const recipeDiv = document.createElement('div');
             recipeDiv.setAttribute('class', 'recipe');
